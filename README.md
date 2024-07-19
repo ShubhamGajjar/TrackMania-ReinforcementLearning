@@ -32,52 +32,10 @@ This repository contains code for training a reinforcement learning (RL) agent t
    ```bash
    git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
    ```
-Administrator Terminal:
+
+2. **Administrator Terminal:**
 Open a terminal with Administrator privileges in the cloned repository's root folder.
-Virtual Environment:
-get-ExecutionPolicy       # If output is 'Restricted', run the next command
-Set-ExecutionPolicy Unrestricted   # Run as Administrator
-python -m venv myenv
-myenv\Scripts\activate
-Use code with caution.
-Bash
-Install Dependencies:
-nvidia-smi              # Verify your CUDA version
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install -r requirements.txt
-python setup.py install --user
-Use code with caution.
-Bash
-Running the AI Agent
-Launch Trackmania: Open Trackmania Nations Forever using TMInterface.
-TMInterface Console: Use the backtick (`) key to open and close the TMInterface console.
-Track Mapping
-Checkpoint Generation Script:
-python ./scripts/observe_manual_run_to_extract_checkpoints.py
-Use code with caution.
-Bash
-Trackmania Editor:
-Go to Editor > New Track/Load Track in Trackmania.
-Edit the track as desired (or load an existing track).
-Drive a Lap: Manually drive one lap around the track in the editor.
-Stop the Script: Stop the observe_manual_run_to_extract_checkpoints.py script.
-Checkpoint File: You should now have a map.npy file in the maps folder, containing the virtual checkpoints for the track.
-Training the Agent
-Select Track: Open the track you want to train on in Trackmania and start a test run.
-Configure train.py:
-Edit the filename in ./scripts/train.py to use the correct map.npy file.
-Ensure the trackmania_rl folder is in the scripts folder.
-Start Training:
-python ./scripts/train.py
-Use code with caution.
-Bash
-Code Structure
-agents/: Contains the IQN agent implementation.
-experience_replay/: Contains the experience replay buffer implementation.
-scripts/: Contains scripts for checkpoint generation and agent training.
-tm_interface_manager.py: Manages communication with Trackmania via TMInterface.
-misc.py: Contains configuration settings and utilities.
-requirements.txt: Lists Python dependencies.
+
 
 
 ## Logo
