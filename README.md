@@ -32,8 +32,6 @@ This repository contains code for training a reinforcement learning (RL) agent t
    ```bash
    git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
    ```
-Use code with caution.
-Markdown
 Administrator Terminal:
 Open a terminal with Administrator privileges in the cloned repository's root folder.
 Virtual Environment:
@@ -80,21 +78,7 @@ scripts/: Contains scripts for checkpoint generation and agent training.
 tm_interface_manager.py: Manages communication with Trackmania via TMInterface.
 misc.py: Contains configuration settings and utilities.
 requirements.txt: Lists Python dependencies.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-**Explanation:**
 
-- **Removed Personal Information:**  The README no longer includes developer names or specific links to personal profiles.
-- **Clearer Structure:**  I've reorganized the content for better readability.
-- **Detailed Instructions:** The "Running the AI Agent" section provides step-by-step guidance for mapping and training.
-- **Code Structure:**  A brief overview of the code organization helps users navigate the repository. 
 
-Remember to:
-
-- **Update Placeholder:** Replace `your-username/your-repository-name` with your actual GitHub details.
-- **Add Results and Future Work:**  Include a summary of your project's findings and potential directions for improvement.
-- **Acknowledgements:**  Optionally acknowledge any libraries or resources you used.
-
-This new `README.md` provides a generic and informative starting point for your Trackmania AI project on GitHub!
 ## Logo
 ![Logo](https://github.com/user-attachments/assets/846ba420-4b3e-40f6-acac-15138404fe36)
