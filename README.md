@@ -34,7 +34,7 @@ This repository contains code for training a reinforcement learning (RL) agent t
    ```
 
 2. **Administrator Terminal:**
-Open a terminal with Administrator privileges in the cloned repository's root folder.
+* Open a terminal with Administrator privileges in the cloned repository's root folder.
 
 
 
