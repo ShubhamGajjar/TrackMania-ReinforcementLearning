@@ -1,8 +1,4 @@
-# Linesight AI: Playing Trackmania with Reinforcement Learning
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-Welcome to our Trackmania AI with Reinforcement Learning project. This repository contains the reinforcement learning training code developed by [pb4](https://github.com/pb4git) and [Agade](https://github.com/Agade09). 
 
 **Disclaimer**
 
