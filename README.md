@@ -20,22 +20,20 @@ The goal of this project is to develop an intelligent agent that can learn to na
 ### Prerequisites:
 
 - **Hardware:**
-    - NVIDIA GPU (for dxcam screen capture)
-    - Sufficient CPU and RAM for running the Python agent and training process
+    - Nvidia GPU (required for dxcam screen capture) 
 - **Software:**
-    - Windows 10 (or compatible OS)
-    - Trackmania Nations Forever: \[Link to download]
-    - TMInterface ([version number]): \[Link to download]
-    - Python (3.10 recommended): \[Link to download]
-    - CUDA Toolkit (compatible with your PyTorch version): \[Link to download]
-    - PyTorch (with CUDA support): \[Link to download instructions]
-    - Required Python libraries: Install with `pip install -r requirements.txt`
-      (Make sure you create a requirements.txt with all your project's dependencies)
+    - Trackmania Nations Forever: [https://nadeo-download.cdn.ubi.com/trackmaniaforever/tmnationsforever_setup.exe](https://nadeo-download.cdn.ubi.com/trackmaniaforever/tmnationsforever_setup.exe)
+    - TMInterface (version <= 1.4.3): [https://donadigo.com/files/TMInterface/TMInterface_1.4.3_Setup.exe](https://donadigo.com/files/TMInterface/TMInterface_1.4.3_Setup.exe)
+    - Python (version = 3.10): [https://www.python.org/downloads/release/python-3100/](https://www.python.org/downloads/release/python-3100/)
+    - CUDA Toolkit 11.8: [https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
+    - PyTorch version 2 with CUDA 11.8 
 
 ### Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
+   ```
+
 ## Logo
 ![Logo](https://github.com/user-attachments/assets/846ba420-4b3e-40f6-acac-15138404fe36)
