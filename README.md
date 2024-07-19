@@ -20,7 +20,7 @@ The goal of this project is to develop an intelligent agent that can learn to na
 ### Prerequisites:
 
 - **Hardware:**
-    - NVIDIA GPU (for dxcam screen capture) - \[Specify minimum requirements or tested model]
+    - NVIDIA GPU (for dxcam screen capture)
     - Sufficient CPU and RAM for running the Python agent and training process
 - **Software:**
     - Windows 10 (or compatible OS)
