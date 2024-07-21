@@ -90,9 +90,29 @@ To begin a run, follow these steps:
 
 ## Features
 
-- Advanced reinforcement learning using Implicit Quantile Networks (IQN)
-- Real-time screen captures for decision-making
-- Communication with Trackmania Nations Forever through TMInterface
+### Intelligent Agent with Implicit Quantile Networks (IQN)
+The agent uses Implicit Quantile Networks (IQN), an advanced reinforcement learning algorithm that goes beyond traditional methods. By estimating the entire distribution of possible outcomes, IQN provides robust handling of uncertainty and improved exploration. This leads to more effective risk management and better overall performance during training.
+
+### Seamless Integration with Trackmania Nations Forever via TMInterface
+This project seamlessly integrates with Trackmania Nations Forever through TMInterface, a third-party tool that facilitates real-time communication between the Python-based AI agent and the game. This integration allows the agent to observe the game's state and send control inputs directly, creating an immersive and interactive gameplay experience.
+
+### Vision-Based Driving with dxcam
+Our agent utilizes dxcam, a high-performance screen capture library, to view the game environment through real-time screen captures. This approach mimics a human player's perspective, enabling the agent to make driving decisions based on visual cues, just like a real driver would.
+
+### Custom Reward Function for Effective Learning
+The reward function is meticulously designed to shape the agent's learning process. It encourages the agent to perform well by rewarding progress, smooth control, and lap completion while penalizing collisions and off-track errors. This carefully balanced reward structure helps the agent develop efficient and skillful driving strategies.
+
+### Virtual Checkpoints for Enhanced Track Progress Tracking
+We employ a system of virtual checkpoints to provide detailed feedback on the agent's progress along the track. Unlike traditional lap times, these checkpoints offer granular insights, enabling the agent to learn more effectively, especially on longer and more intricate tracks.
+
+### Clear and Detailed Installation Instructions
+Our README includes straightforward installation instructions, complete with links to necessary software, virtual environment setup guidance, and PyTorch installation with CUDA support. This ensures that users can quickly and easily get the project up and running on their systems.
+
+### User-Friendly Training Process
+We guide users through the process of generating virtual checkpoints for their chosen tracks and starting the agent training. The README also covers how to use TensorBoard to monitor the agent’s performance during training, making the process as intuitive as possible.
+
+### Well-Documented Code Structure
+The README provides a clear explanation of the repository's code structure, helping users understand how different components of the project fit together. This transparency makes it easier for new contributors to get involved and for users to navigate the project.
 
 ## Contributing
 
