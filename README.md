@@ -10,30 +10,29 @@ This repository contains code for training a reinforcement learning (RL) agent t
 * **Realistic Gameplay:** The agent interacts with Trackmania Nations Forever using TMInterface, a tool that allows external programs to communicate with the game.
 * **Vision-Based Control:** The agent uses real-time screen captures (with dxcam) and game data to make driving decisions.
 
-## Getting Started
+## Prerequisites
 
-
-### Prerequisites
 Before you get started, ensure you have the following prerequisites:
 
-**Hardware:**
+### Hardware:
+
 * 20 Gigs RAM
 * Nvidia GPU (required for screen capture)
 
-**Software:**
+### Software:
 
-* Trackmania Nations Forever: [https://nadeo-download.cdn.ubi.com/trackmaniaforever/tmnationsforever_setup.exe](https://nadeo-download.cdn.ubi.com/trackmaniaforever/tmnationsforever_setup.exe)
-* TMInterface (version <= 1.4.3): [https://donadigo.com/files/TMInterface/TMInterface_1.4.3_Setup.exe](https://donadigo.com/files/TMInterface/TMInterface_1.4.3_Setup.exe)
-* Python (version = 3.10): [https://www.python.org/downloads/release/python-3100/](https://www.python.org/downloads/release/python-3100/)
-* CUDA Toolkit 11.8: [https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
+* Trackmania Nations Forever: [Download](https://nadeo-download.cdn.ubi.com/trackmaniaforever/tmnationsforever_setup.exe)
+* TMInterface (version <= 1.4.3): [Download](https://donadigo.com/files/TMInterface/TMInterface_1.4.3_Setup.exe)
+* Python (version = 3.10): [Download](https://www.python.org/downloads/release/python-3100/)
+* CUDA Toolkit 11.8: [Download](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
 * PyTorch version 2 with CUDA 11.8
 
-### Installation
+## Installation
 
 **Clone Repository:**
-   ```bash
-   git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
-   ```
+```bash
+git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
+```
 
 To set up the project, follow these steps in Terminal:
 
