@@ -16,7 +16,7 @@ Before you get started, ensure you have the following prerequisites:
 
 ### Hardware:
 
-* 20 Gigs RAM
+* 24 Gigs RAM
 * Nvidia GPU (required for screen capture)
 
 ### Software:
