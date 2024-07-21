@@ -83,10 +83,9 @@ To begin a run, follow these steps:
 1. Open your track and start the test
 2. Edit the location of the `map.npy` file at the top of `./scripts/train.py`, specifically at line `zone_centers = np.load(...)`.
 3. Open Trackmania Interface and load the map you wish to train on, setting the game resolution to 640x480.
-4. Copy the `trackmania_rl` folder to `scripts`.
-5. Run the training script: `python ./scripts/train.py`.
-6. Monitor training performance via the TensorBoard interface.
-7. Be patient; training may take a significant amount of time.
+4. Run the training script: `python ./scripts/train.py`.
+5. Monitor training performance via the TensorBoard interface.
+6. Be patient; training may take a significant amount of time.
 
 ## Features
 
