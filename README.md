@@ -53,7 +53,7 @@ git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
 To begin a run, follow these steps:
 
 1. Open Trackmania using TMInterface
-2. Use `\`` to open and close the console
+2. Use ` to open and close the console
 3. Run the script to generate "virtual checkpoints" for your map: `python ./scripts/observe_manual_run_to_extract_checkpoints.py`.
     - In Trackmania: Editor > New Track/Load Track > edit track
 4. Play through the map, staying near the centerline of the road.
