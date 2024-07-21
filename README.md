@@ -36,7 +36,7 @@ git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
 
 ## To set up the project, follow these steps in Terminal:
 
-1. Open Terminal with Admin at the root folder
+1. Open Terminal with Administrative privileges at the root folder
 2. Execute: `get-ExecutionPolicy` (run the next step if the output is Restricted)
 3. Execute: `Set-ExecutionPolicy Unrestricted` (run as admin)
 4. Create a virtual environment: `python -m venv myenv`
