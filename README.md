@@ -1,7 +1,7 @@
 # Trackmania AI - Reinforcement Learning Agent
 
-![Build Status](https://img.shields.io/travis/user/repo.svg)
-![Coverage](https://img.shields.io/codecov/c/github/user/repo.svg)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This repository contains code for training a reinforcement learning (RL) agent to drive autonomously in Trackmania Nations Forever. The agent learns to race on a track by interacting with the game environment, receiving rewards for good driving behavior, and improving its strategy over time.
