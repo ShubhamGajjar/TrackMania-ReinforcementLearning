@@ -58,7 +58,8 @@ To begin a run, follow these steps:
     - In Trackmania: Editor > New Track/Load Track > edit track
 4. Play through the map, staying near the centerline of the road.
 5. Stop the script by closing the console: `observe_manual_run_to_extract_checkpoints.py`.
-6. Save the map while in the game. The script will save a file in `./maps/map.npy` containing the coordinates of "virtual checkpoints" spaced approximately 10 meters apart.
+6. Save the map while in the game.
+    - The script will save a file in `./maps/map.npy` containing the coordinates of "virtual checkpoints" spaced approximately 10 meters apart.
 
 ### Starting Training
 
