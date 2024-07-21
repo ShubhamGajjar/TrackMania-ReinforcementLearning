@@ -16,17 +16,6 @@ This repository contains code for training a reinforcement learning (RL) agent t
 ### Prerequisites
 Before you get started, ensure you have the following prerequisites:
 
-* Nvidia GPU
-* Trackmania Nations Forever
-(https://nadeo-download.cdn.ubi.com/trackmaniaforever/tmnationsforever_setup.exe)
-* TMInterface version <= 1.4.3
-(https://donadigo.com/files/TMInterface/TMInterface_1.4.3_Setup.exe)
-* Python version = 3.10
-(https://www.python.org/downloads/release/python-3100/)
-* Make Sure to have CUDA Toolkit 11.8
-(https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
-* PyTorch version 2 with CUDA 11.8
-
 **Hardware:**
 * 20 Gigs RAM
 * Nvidia GPU (required for screen capture)
