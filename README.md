@@ -1,8 +1,23 @@
 # Trackmania AI - Reinforcement Learning Agent
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Build Status](https://img.shields.io/travis/user/repo.svg)
+![Coverage](https://img.shields.io/codecov/c/github/user/repo.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This repository contains code for training a reinforcement learning (RL) agent to drive autonomously in Trackmania Nations Forever. The agent learns to race on a track by interacting with the game environment, receiving rewards for good driving behavior, and improving its strategy over time.
+
+## Table of Contents
+
+- [Project Highlights](#project-highlights)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+  - [Generating "Virtual Checkpoints" for Your Map](#generating-virtual-checkpoints-for-your-map)
+  - [Starting Training](#starting-training)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Screenshots](#screenshots)
 
 ## Project Highlights
 
@@ -16,7 +31,7 @@ Before you get started, ensure you have the following prerequisites:
 
 ### Hardware:
 
-* 24 Gigs RAM
+* 20 Gigs RAM
 * Nvidia GPU (required for screen capture)
 
 ### Software:
