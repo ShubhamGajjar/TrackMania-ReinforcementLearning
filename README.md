@@ -23,7 +23,6 @@ Before you get started, ensure you have the following prerequisites:
 * Make Sure to have CUDA Toolkit 11.8
 (https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
 * PyTorch version 2 with CUDA 11.8
-* Open Terminal with Admin at the root folder 
 
 ### Prerequisites
 
