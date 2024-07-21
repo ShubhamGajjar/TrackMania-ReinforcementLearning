@@ -127,5 +127,5 @@ The README provides a clear explanation of the repository's code structure, help
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-## Logo
+## Screenshots
 ![Logo](https://github.com/user-attachments/assets/846ba420-4b3e-40f6-acac-15138404fe36)
