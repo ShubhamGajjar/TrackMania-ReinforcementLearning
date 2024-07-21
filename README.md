@@ -49,9 +49,11 @@ Before you get started, ensure you have the following prerequisites:
 git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
 ```
 
-## To set up the project, follow these steps in Terminal:
+## Setup Instructions
 
-1. Open Terminal with Administrative privileges at the root folder
+To set up the project, follow these steps in Terminal:
+
+1. Open Terminal with Admin at the root folder
 2. Execute: `get-ExecutionPolicy` (run the next step if the output is Restricted)
 3. Execute: `Set-ExecutionPolicy Unrestricted` (run as admin)
 4. Create a virtual environment: `python -m venv myenv`
@@ -68,13 +70,12 @@ git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
 To begin a run, follow these steps:
 
 1. Open Trackmania using TMInterface
-2. Use ` to open and close the console
+2. Use ``` to open and close the console
 3. Run the script to generate "virtual checkpoints" for your map: `python ./scripts/observe_manual_run_to_extract_checkpoints.py`.
     - In Trackmania: Editor > New Track/Load Track > edit track
 4. Play through the map, staying near the centerline of the road.
 5. Stop the script by closing the console: `observe_manual_run_to_extract_checkpoints.py`.
-6. Save the map while in the game.
-    - The script will save a file in `./maps/map.npy` containing the coordinates of "virtual checkpoints" spaced approximately 10 meters apart.
+6. Save the map while in the game. The script will save a file in `./maps/map.npy` containing the coordinates of "virtual checkpoints" spaced approximately 10 meters apart.
 
 ### Starting Training
 
@@ -85,6 +86,24 @@ To begin a run, follow these steps:
 5. Run the training script: `python ./scripts/train.py`.
 6. Monitor training performance via the TensorBoard interface.
 7. Be patient; training may take a significant amount of time.
+
+## Features
+
+- Advanced reinforcement learning using Implicit Quantile Networks (IQN)
+- Real-time screen captures for decision-making
+- Communication with Trackmania Nations Forever through TMInterface
+
+## Contributing
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
 ## Logo
