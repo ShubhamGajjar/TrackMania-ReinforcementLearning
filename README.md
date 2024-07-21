@@ -11,6 +11,9 @@ This repository contains code for training a reinforcement learning (RL) agent t
 * **Vision-Based Control:** The agent uses real-time screen captures (with dxcam) and game data to make driving decisions.
 
 ## Getting Started
+
+
+### Prerequisites
 Before you get started, ensure you have the following prerequisites:
 
 * Nvidia GPU
@@ -24,10 +27,8 @@ Before you get started, ensure you have the following prerequisites:
 (https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)
 * PyTorch version 2 with CUDA 11.8
 
-### Prerequisites
-
 **Hardware:**
-
+* 20 Gigs RAM
 * Nvidia GPU (required for screen capture)
 
 **Software:**
