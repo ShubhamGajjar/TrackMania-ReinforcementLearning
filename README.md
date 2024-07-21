@@ -30,15 +30,10 @@ Before you get started, ensure you have the following prerequisites:
 
 ### Installation
 
-1. **Clone Repository:**
+**Clone Repository:**
    ```bash
    git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
    ```
-
-2. **Administrator Terminal:**
-* Open a terminal with Administrator privileges in the cloned repository's root folder.
-
-
 
 ## Logo
 ![Logo](https://github.com/user-attachments/assets/846ba420-4b3e-40f6-acac-15138404fe36)
