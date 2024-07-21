@@ -21,7 +21,7 @@ This repository contains code for training a reinforcement learning (RL) agent t
 
 ## Project Highlights
 
-* **AI Driver:** The agent is trained using an advanced reinforcement learning algorithm called Implicit Quantile Networks (IQN). 
+* **AI Driver:** The agent learns to drive in Trackmania using Implicit Quantile Networks (IQN), a cutting-edge reinforcement learning algorithm implemented in the iqn.py file. IQN predicts a range of possible outcomes for each action, allowing for more robust decision-making in unpredictable racing situations. 
 * **Realistic Gameplay:** The agent interacts with Trackmania Nations Forever using TMInterface, a tool that allows external programs to communicate with the game.
 * **Vision-Based Control:** The agent uses real-time screen captures (with dxcam) and game data to make driving decisions.
 
