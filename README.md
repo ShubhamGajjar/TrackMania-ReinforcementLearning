@@ -25,7 +25,7 @@ THIS IS AN WORK IN PROGESS, BUILD IS NOT 100% COMPLETE
 * **AI Driver:** The agent learns to drive in Trackmania using Implicit Quantile Networks (IQN), a cutting-edge reinforcement learning algorithm implemented in the `iqn.py` file. IQN predicts a range of possible outcomes for each action, allowing for more robust decision-making in unpredictable racing situations. 
 * **Realistic Gameplay:** The agent interacts directly with Trackmania Nations Forever through TMInterface, as managed by the `tm_interface_manager.py` script. This integration allows for real-time control inputs and access to in-game data, creating a truly immersive learning experience for the AI.
 * **Vision-Based Control:** The agent "sees" the track like a human player, using screen captures provided by the high-performance dxcam library. This visual input is combined with numerical data from the game (like speed, position, and virtual checkpoint information) to create a comprehensive state representation that informs the agent's decisions.
-
+* 
 ## Prerequisites
 
 Before you get started, ensure you have the following prerequisites:
