@@ -18,4 +18,3 @@ typing
 numba
 opencv-python
 joblib
-ffmpeg-python
