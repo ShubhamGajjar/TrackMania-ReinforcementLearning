@@ -17,3 +17,4 @@ setuptools
 typing
 numba
 opencv-python
+joblib
