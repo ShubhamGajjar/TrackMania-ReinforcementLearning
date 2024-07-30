@@ -111,9 +111,6 @@ Our README includes straightforward installation instructions, complete with lin
 ### User-Friendly Training Process
 We guide users through the process of generating virtual checkpoints for their chosen tracks and starting the agent training. The README also covers how to use TensorBoard to monitor the agent’s performance during training, making the process as intuitive as possible.
 
-### Well-Documented Code Structure
-The README provides a clear explanation of the repository's code structure, helping users understand how different components of the project fit together. This transparency makes it easier for new contributors to get involved and for users to navigate the project.
-
 ## Contributing
 
 1. Fork the project
