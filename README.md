@@ -52,7 +52,7 @@ git clone https://github.com/ShubhamGajjar/TrackMania-ReinforcementLearning.git
 **keybind record:**
 If you want to record the keybind of the game then install the ffmpeg using following command in Terminal
 ```bash
-winget install "FFmpeg (Essentials Build)"
+winget install FFmpeg
 ```
 ## Setup Instructions
 
