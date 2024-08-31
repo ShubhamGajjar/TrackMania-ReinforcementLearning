@@ -1,3 +1,4 @@
+# Basic Libraries
 import importlib
 import random
 import time
@@ -5,12 +6,12 @@ from collections import defaultdict
 from datetime import datetime
 from itertools import count
 from pathlib import Path
-
+# Deep Learning Libraries
 import joblib
 import numpy as np
 import torch
 from torch.utils.tensorboard import SummaryWriter
-
+# Game Libraries
 import trackmania_rl.agents.iqn as iqn
 from trackmania_rl import buffer_management, misc, nn_utilities, tm_interface_manager
 from trackmania_rl.buffer_utilities import buffer_collate_function
