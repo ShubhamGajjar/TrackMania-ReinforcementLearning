@@ -58,7 +58,7 @@ winget install FFmpeg
 
 To set up the project, follow these steps in Terminal:
 
-1. Open Terminal with Admin at the root folder
+1. Open Terminal with Admin at the root folder of Code
 2. Execute: `get-ExecutionPolicy` (run the next step if the output is Restricted)
 3. Execute: `Set-ExecutionPolicy Unrestricted` (run as admin)
 4. Create a virtual environment: `python -m venv myenv`
